@@ -1,5 +1,1 @@
-User-agent: *
-Disallow: /cgi-bin
-
-*itsmiraculous.com
-
+<script data-ad-client="ca-pub-3471335284860080" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
