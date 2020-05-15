@@ -1034,6 +1034,46 @@ section.lazy-placeholder:after {
 .cid-rYPFgDDGja {
   background-image: url("../../../assets/images/1049251-zags-miraculous-tales-ladybug-and-cat-noir-makes-us-debut-1280x902.jpg");
 }
+.cid-rZ0JgOuH43 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #efefef;
+}
+.cid-rZ0JgOuH43 .card-box {
+  padding: 0 2rem;
+}
+.cid-rZ0JgOuH43 .mbr-section-btn {
+  padding-top: 1rem;
+}
+.cid-rZ0JgOuH43 .mbr-section-btn a {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+.cid-rZ0JgOuH43 h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+  padding-top: 2rem;
+}
+.cid-rZ0JgOuH43 p {
+  margin-bottom: 0;
+  text-align: left;
+  padding-top: 1.5rem;
+}
+.cid-rZ0JgOuH43 .mbr-text {
+  color: #767676;
+}
+.cid-rZ0JgOuH43 .card-wrapper {
+  height: 100%;
+  padding-bottom: 2rem;
+  background: #ffffff;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s;
+}
+.cid-rZ0JgOuH43 .card-wrapper:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s;
+}
 .cid-rXvYVhruL2 .navbar {
   padding: .5rem 0;
   background: #333333;
