@@ -81,8 +81,27 @@
   <p></p>
   <hr>
   <p class="mb-0">When the newly crowned Queen Elsa accidentally uses her power to turn things into ice to curse her home in infinite winter, her sister Anna teams up with a mountain man, his playful reindeer, and a snowman to change the weather condition.<br><br><br><br></p>
-<div style="width:660px; height:371px" class="open-stream-player" id="open-stream-player-8798922"></div>
-<script src="https://tune.pk/js/open/embed.js?vid=8798922&amp;userid=753989"></script>
+<link rel="stylesheet" href="https://cdn.plyr.io/3.5.6/plyr.css">
+  <script src="https://cdn.plyr.io/3.5.6/plyr.js"></script>
+ <script>
+      document.addEventListener('DOMContentLoaded', () => {
+          const player = Plyr.setup('.js-player');
+      });
+  </script>
+  <video poster="" id="player" playsinline controls> <source src="https://www1212.o0-3.com/token=wiYnxTBzgHi_e6d2hxPzQQ/1591460560/178.135.0.0/104/5/b6/924a3d1de53f009ff2296e8ff3c3ab65-720p.mp4" type="video/mp4"> </video>
+   <!-- CUSTOM -->
+        
+<script src="player_data/polyfill.min.js"></script>
+<script src="player_data/plyr.min.js"></script>
+<script id="rendered-js">
+          // Change the second argument to your options:
+// https://github.com/sampotts/plyr/#options
+const player = new Plyr('video', { captions: { active: true } });
+
+// Expose player so it can be used from the console
+window.player = player;
+          //# sourceURL=pen.js
+        </script>
 </div>
 
 
