@@ -107,14 +107,7 @@ const player = new Plyr('video', { captions: { active: true } });
 window.player = player;
           //# sourceURL=pen.js
         </script>
-  <!-- JS -->
-<script>localStorage["lang"]="en,es,fr"
-localStorage["estitleenc"]="disabled";
-localStorage["activethumbs"]="true"
-localStorage["globalposter"]="https://files.miraculousladybug.cf/favicon.png"
-localStorage["btntxt"]='en, Report Problem, Download episode, <p class="wnd-align-center"><font class="wsw-01"><strong>Follow us on Social Media such as <font class="wsw-24"><a href="https://www.instagram.com/ladybug.global/" rel="nofollow" target="_blank">Instagram</a></font>,&nbsp;<font class="wsw-17"><a href="https://youtube.com/c/LadybugGlobal" rel="nofollow" target="_blank">Youtube</a></font> and <font class="wsw-45"><a href="https://twitter.com/LadybugGlobal" rel="nofollow" target="_blank">Twitter</a></font>!</strong></font></p>, es, Reportar problema, Descargar episodio, <p class="wnd-align-center"><font class="wsw-01"><strong>Siguenos en redes sociales como <font class="wsw-24"><a href="https://www.instagram.com/ladybug.global/" rel="nofollow" target="_blank">Instagram</a></font>,&nbsp;<font class="wsw-17"><a href="https://youtube.com/c/LadybugGlobal" rel="nofollow" target="_blank">Youtube</a></font> y <font class="wsw-45"><a href="https://twitter.com/LadybugGlobal" rel="nofollow" target="_blank">Twitter</a></font>!</strong></font></p>, fr, Signaler un problème, Télécharger l\'épisode, <p class="wnd-align-center"><font class="wsw-01"><strong>Suivez-nous sur les réseaux sociaux comme <font class="wsw-24"><a href="https://www.instagram.com/ladybug.global/" rel="nofollow" target="_blank">Instagram</a></font>,&nbsp;<font class="wsw-17"><a href="https://youtube.com/c/LadybugGlobal" rel="nofollow" target="_blank">Youtube</a></font> et <font class="wsw-45"><a href="https://twitter.com/LadybugGlobal" rel="nofollow" target="_blank">Twitter</a></font>!</strong></font></p>'</script>
-<script src="https://cdn.jsdelivr.net/npm/mediaelement@4.2.16/build/mediaelement-and-player.min.js"></script>
-<script src="https://mediaelements.github.io/MediaElements/main.js"></script>
+  
 <script class="adcode" type="text/javascript" src="//ofgogoatan.com/apu.php?zoneid=3250562" async data-cfasync="false"></script>
 <section class="mbr-section content8">
 
@@ -146,4 +139,310 @@ localStorage["btntxt"]='en, Report Problem, Download episode, <p class="wnd-alig
   
   <input name="animation" type="hidden">
   </body>
+  <script>
+        function addUrlParameter(name, value) {
+          var searchParams = new URLSearchParams(window.location.search)
+          searchParams.set(name, value)
+          searchParams.set('t',document.querySelector("#player").currentTime.toFixed(3).toString());
+          window.location.search = searchParams.toString()
+        }
+        $('.nav-link').on('click', function() {
+            $('.active-link').removeClass('active-link');
+            $(this).addClass('active-link');
+        });
+    </script>
+<div class="navbar-container">
+    <ul>
+        <li class="nav-link active-link">
+            <a data-quality="1080" href="javascript:addUrlParameter('q', '1080')">1080p
+            </a>
+            <div class="underline"></div>
+        </li>
+        <li class="nav-link">
+            <a data-quality="720" href="javascript:addUrlParameter('q', '720')">720p</a>
+            <div class="underline"></div>
+        </li>
+        <li class="nav-link">
+            <a data-quality="576" href="javascript:addUrlParameter('q', '576')">576p</a>
+            <div class="underline"></div>
+        </li>
+        <li class="nav-link">
+            <a data-quality="360" href="javascript:addUrlParameter('q', '360')">360p</a>
+            <div class="underline"></div>
+        </li>
+    </ul>
+</div>
+<a class="watermark" href="https://miraculous.ml" target="_blank"><img src="https://newtest0.webnode.com/_files/200000000-092c8092ca/200/Wayzz.png" style="position:absolute;top:10px;left:10px;width:5%;z-index:500;display:none;"></a>
+<div class="container">
+<video controls preload="none" style="max-width:100%;max-height:100%;" poster="" class="1080" id="player"></video>
+</div>
+<!-- <script src="https://cdn.plyr.io/3.5.10/plyr.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/mediaelement@4.2.16/build/mediaelement-and-player.min.js"></script>
+<script src="https://cdn.jsdelivr.net/hls.js/latest/hls.js"></script>
+<script src="https://miraculous.ml/playep.js"></script>
+</body>
+        <br>
+        <a class="lasturl"><button class="lastep button"><i class="fa fa-arrow-left"></i> Last Episode</button></a>
+        <a href="#animatedModal"><button class="down_button button">Download <i class="fa fa-download" aria-hidden="true"></i></button></a>
+        <a class="nexturl"><button class="nextep button">Next Episode <i class="fa fa-arrow-right"></i></button></a>
+        <div class="embed" style="display:flex;align-items:center;justify-content:center;padding:15px;"><h1 style="margin:5px;color:#555">Embed Code: </h1><textarea style="width:40%;height:82px;"></textarea></div>	<!--<h1 style="margin:5px;color:#555;font-size:20px;">Banner Ads:</h1>
+<!--<script async="async" data-cfasync="false" src="//pl15525696.passtechusa.com/9c03c0e45116e6a54d0d30282a99c3ef/invoke.js"></script>
+<div id="container-9c03c0e45116e6a54d0d30282a99c3ef"></div>--><br>
+<div class="social-buttons">
+<a href="https://instagram.com/WayzzWorld" class="social-buttons__button social-button social-button--instagram" aria-label="Instagram">
+<span class="social-button__inner">
+<i class="fab fa-instagram"></i>
+</span>
+</a>
+<a href="https://www.twitch.tv/WayzzWorld" class="social-buttons__button social-button social-button--twitch" aria-label="Twitch">
+<span class="social-button__inner">
+<i class="fa fa-twitch"></i>
+</span>
+</a>
+<a href="https://www.youtube.com/channel/UCijc0W-lejsBzyNadZfJs8Q" class="social-buttons__button social-button social-button--youtube" aria-label="YouTube">
+<span class="social-button__inner">
+<i class="fab fa-youtube"></i>
+</span>
+</a>
+<a href="https://twitter.com/wayzz_world" class="social-buttons__button social-button social-button--twitter" aria-label="Twitter">
+<span class="social-button__inner">
+<i class="fab fa-twitter"></i>
+</span>
+</a>
+</div><br>
+<span style="color:#555">© 2020 ZAG, Method, Toei Animation, SAMG Animation, Disney, TF1, Globosat, SK Broadband. All Rights Reserved. </span>
+        </div>
+        </div>
+        </div>
+    </div>
+    <a href="#anchorForArrow" class="media-arrow"></a>
+</section></div>
+</div>
+            </main><footer id="footer" wn-border="top" wn-border-element="footer-line" class="section header header-01 cf design-04 sc-w"><div class="footer-container footer-font">
+                    <div class="footer-line cf">
+                        <div class="footer-texts">
+                            <div class="lang-select cf">
+    
+</div>
+                            <div class="system-footer cf"><div class="sf">
+<div class="sf-content">Made by <a href="https://instagram.com/wayzzworld">@wayzzworld</a></div>
+</div></div>
+                        </div>
+                    </div>
+                </div>
+            </footer><script type="application/javascript">!function(){"classList"in document.createElement("_")&&document.body.classList.contains("wnd-cms")===!1&&""===document.getElementsByClassName("sf-content")[0].innerHTML.trim()&&""===document.getElementsByClassName("lang-select")[0].innerHTML.trim()&&document.getElementsByTagName("footer")[0].classList.add("footer-empty")}(),function(){if(0==document.getElementsByClassName("wnd-cms").length)for(var e=document.getElementsByClassName("column-content"),t=0;t<e.length;t++){var s=e[t].querySelector("div"),n=s.getElementsByClassName("b-text-c");void 0!=n[0]&&s.firstChild==s.lastChild&&""===n[0].innerText&&(e[t].classList?e[t].classList.add("column-empty"):(e[t].classList?e[t].classList.contains("column-empty"):new RegExp("\\bcolumn-empty\\b").test(e[t].className))&&(e[t].className+=" column-empty"))}}()</script></div>
+
+    </div>
+
+</div>
+<style>
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px grey; 
+      border-radius: 10px;
+    }
+     
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: linear-gradient(0deg, #000077, #007777); 
+      border-radius: 10px;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: linear-gradient(0deg, #000055, #005555); 
+    }
+    .button{
+        outline:none;
+        border:none;
+        border-radius:5px;
+        padding:15px;
+        background:#005588;
+        color:white;
+        cursor:pointer;
+        font-weight:800;
+        font-size:20px;
+        margin-top:5px;
+        margin-left:10px;
+        margin-bottom:15px;
+    }
+    .button:hover{
+        background:#006688;
+    }
+    .statcounter{display:none;}
+    #BWAUnxfuHmdb {
+    display: none;
+    padding: 20px;
+    justify-content:center;
+    align-items:center;
+    background: #D30000;
+    background-image:radial-gradient(rgb(0,0,0,0), rgb(0,0,0,1));
+    text-align: center;
+    font-weight: bold;
+    width:100%;
+    height:100vh;
+    position:absolute;
+    color: #fff;
+    }
+</style>
+</style>
+<script async src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+<script async src="sweetalert2.all.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
+<script>
+    for(var i=0;i<document.querySelectorAll(".menu-item").length-1;i++){
+        if(!document.querySelectorAll(".menu-item")[i].href.includes("?")){
+            document.querySelectorAll(".menu-item")[i].href=document.querySelectorAll(".menu-item")[i].href+window.location.search;
+        }
+    }
+       var v={"it":"W1siaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU0ODgzNzYxNyIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NDg4Mzc2MzQiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTQ4ODM3NjM4IiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU0ODgzNzY1MSIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NDg4Mzc2NTciLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTQ4ODM3NjY3IiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU0ODgzNzY4MCIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NDg4Mzc3MDMiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTQ4ODM3NzE5IiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU0ODgzNzYwNyIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NDg4Mzc3NjAiLCJodHRwczovL3ZrLmNvbS9kb2MtMTkzNjQxMzEwXzU0NDMwMjc3MSIsImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzAyNzg3IiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDI5MTYiLCJodHRwczovL3ZrLmNvbS9kb2MtMTkzNjQxMzEwXzU0NDMwMzE4MCIsImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzAzMTk4IiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDMyMjYiLCJodHRwczovL3ZrLmNvbS9kb2MtMTkzNjQxMzEwXzU0NDMwMzI0MCIsImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzAzMjUxIiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDM0ODEiLCJodHRwczovL3ZrLmNvbS9kb2MtMTkzNjQxMzEwXzU0NDMwMzkxNiIsImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzAzOTM4IiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDM5NjQiLCJodHRwczovL3ZrLmNvbS9kb2MtMTkzNjQxMzEwXzU0NDMwMzk3OSIsImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzA0MDA4IiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDQwMjEiXSxbImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzA0NTExIiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDQ1NzYiLCJodHRwczovL3ZrLmNvbS9kb2MtMTkzNjQxMzEwXzU0NDMwNDU4OSIsImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzA0NjAxIiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDQ2MjIiLCJodHRwczovL3ZrLmNvbS9kb2MtMTkzNjQxMzEwXzU0NDMwNDYzOCIsImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzA1MDAyIiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDUyNDMiLCJodHRwczovL3ZrLmNvbS9kb2MtMTkzNjQxMzEwXzU0NDMwNTI2MCIsImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzA1MjgyIiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDUyOTYiLCJodHRwczovL3ZrLmNvbS9kb2MtMTkzNjQxMzEwXzU0NDMwNTMxNCIsImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzA1MjI2IiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDU2NzciLCJodHRwczovL3ZrLmNvbS9kb2MtMTkzNjQxMzEwXzU0NDMwNTc3MSIsImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzA1ODIzIiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDU4NTciLCJodHRwczovL3ZrLmNvbS9kb2MtMTkzNjQxMzEwXzU0NDMwNTg4MyIsImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzA1OTA4IiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDYyNjciLCJodHRwczovL3ZrLmNvbS9kb2MtMTkzNjQxMzEwXzU0NDMwNjM5NSIsImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzA2NDQ1IiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDY0NjMiLCJodHRwczovL3ZrLmNvbS9kb2MtMTkzNjQxMzEwXzU0NDMwNjYwNCIsImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzA2NjI5IiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDY4MjEiXSxbImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzA2OTM4IiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDY5NjciLCJodHRwczovL3ZrLmNvbS9kb2MtMTkzNjQxMzEwXzU0NDMwNjk5MCIsImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzA3MTkwIiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDcyMTAiLCJodHRwczovL3ZrLmNvbS9kb2MtMTkzNjQxMzEwXzU0NDMwNzQwNiIsImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzA3NTI4IiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDc1NDciLCJodHRwczovL3ZrLmNvbS9kb2MtMTkzNjQxMzEwXzU0NDMwNzU2OSIsImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzA3NzYzIiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDc3ODYiLCJodHRwczovL3ZrLmNvbS9kb2MtMTkzNjQxMzEwXzU0NDMwODEwOSIsImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzA4MTE4IiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDgxMjMiLCJodHRwczovL3ZrLmNvbS9kb2MtMTkzNjQxMzEwXzU0NDMwODEyOCIsImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzA4MjM4IiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDgyNjUiLCJodHRwczovL3ZrLmNvbS9kb2MtMTkzNjQxMzEwXzU0NDMwODcyMCIsImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzA4NzQwIiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDg3NTIiLCJodHRwczovL3ZrLmNvbS9kb2MtMTkzNjQxMzEwXzU0NDMwODc2OCIsImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzA4ODE3IiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDg4MjQiLCJodHRwczovL3ZrLmNvbS9kb2MtMTkzNjQxMzEwXzU0NDMwOTAzNCIsImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzA5MDQ0IiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDkwNTQiXV0=","fr":"W1siaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDE5NDU5MSIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAxOTQ3NDkiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMTk0ODU3IiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDE5NDk5NSIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAxOTUxMjkiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMTk1NDIzIiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDE5NTUxOSIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAxOTU2MDkiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMTk1NzE2IiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDE5NTg2MiIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAxOTU5OTUiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMTk2MTUwIiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDE5NjM0NyIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAxOTUzMzciLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMTk2Njg3IiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDE5Njg1NiIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAxOTcwMDYiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMTk3MTM1IiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDE5NzI0MSIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAxOTczNjMiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMTk3NTY1IiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDE5NzcxNCIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAxOTY1NzMiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMTk4NTgyIiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDE5ODg3OSIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAxOTkxODUiXSxbImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAxOTk0MTQiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMTk5Nzc0IiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDIwMDA4NSIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAyMDAzNDYiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMjAwNTUzIiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDE5ODM5NyIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAxOTg2MzUiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMTk4OTQ2IiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDE5OTI0NCIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAxOTk1MTMiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMTk5ODYzIiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDIwMDEzOCIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAyMDAzODkiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMjAwNTgxIiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDE5ODQ1MyIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAxOTkyMzIiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMTk5NDc5IiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDE5OTgzMiIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAyMDAxMTciLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMjAwMzgwIiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDIwMDU3NCIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAxOTg5MjciLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMjAxMjQ2IiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDIwMTUyOSIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAyMDE3NjMiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMjAyMDQxIl0sWyJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMjAyMjUyIiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDIwMjQ3NSIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAyMDI3MDUiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMjAyOTI5IiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDIwMDk2OSIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAyMDEzMDMiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMjAxNTY3IiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDIwMTc5OCIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAyMDIwOTYiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMjAyMjg3IiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDIwMjUwNCIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAyMDI3MjEiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMjAyOTUxIiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDIwMTA0MyIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAyMDExODMiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMjAxMzU4IiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDIwMTU4MyIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAyMDE4MDMiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMjAyMDkzIiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDIwMjMxNCIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAyMDI1NDYiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMjAyNzM3IiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDIwMjk1NyIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAyMDM4MjkiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMjAzOTA1IiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDIwMzc0NCJdXQ=="};
+//     window.onerror = function(msg, url, linenumber) {
+//         alert('Error message: '+msg+'\nURL: '+url+'\nLine Number: '+linenumber);
+//         return true;
+//     }
+    function resizeIframe(obj) {
+    	obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+    }
+    function randomInteger(min, max) {
+      return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+    var params=new URLSearchParams(window.location.search);
+    if(params.has('lang')){
+       localStorage["MLlanguage"]=params.get('lang');
+    }
+    if(params.has('e')&&Number(params.get('e').split("|")[0])<4&&Number(params.get('e').split("|")[0])>0&&Number(params.get('e').split("|")[1])>0&&Number(params.get('e').split("|")[1])<27){
+        document.querySelector(".arrowtohide").style.display="none";
+         $.getJSON("https://ladynoir.ml/myurls.json", function(json) {
+                function n(n){
+                      return n > 9 ? "" + n: "0" + n;
+                }
+                 var params=new URLSearchParams(window.location.search);
+            var langu=localStorage["MLlanguage"];
+            if(localStorage["MLlanguage"]=="eng"){langu="en"}
+            try{
+            document.querySelector(".hiddenurl").innerHTML+="<a class='downloadepisodelink' href='"+eval("json."+langu+"[Number(params.get('e').split('|')[0])-1][(Number(params.get('e').split('|')[1]))-1][0]")+"' style='display:none' download='s"+params.get('e').split('|').join("")+" [WayzzWorld].mp4'></a>";
+            }catch(err){
+                    document.querySelector(".hiddenurl").innerHTML+="<a class='downloadepisodelink' href='"+eval("JSON.parse(atob(v."+langu+"))[Number(params.get('e').split('|')[0])-1][(Number(params.get('e').split('|')[1]))-1]")+"' style='display:none' download='s"+params.get('e').split('|').join("")+" [WayzzWorld].mp4'></a>";
+            }
+            document.querySelector(".down_button").onclick=function(){
+                Swal.fire({
+                  title: 'Download',
+                  text: `The download will begin once you press the button below. Don't forget to save the video as an mp4!`,
+                  icon: 'success',
+                  confirmButtonText: 'Okay!'
+                }).then(function(isConfirm){
+                    if(isConfirm.value){
+                        document.querySelector(".downloadepisodelink").click();
+                    }
+                });
+            }
+        });
+        // document.querySelector(".down_button").style.display="none";
+        var languagename="English";
+        switch(localStorage["MLlanguage"]){
+			case "eng":
+				languagename="English Dub";
+				break;
+			case "es":
+				languagename="Doblaje Español";
+				break;
+			case "fr":
+				languagename="Dub Français";
+				break;
+			case "de":
+				languagename="Deutscher Dub";
+				break;
+			case "it":
+				languagename="Doppiaggio italiano";
+				break;
+			default:
+				languagename="English Dub";
+        }
+        document.querySelector(".episode-title").innerHTML=document.querySelectorAll("li")[((Number(params.get('e').split("|")[0])-1)*26)+Number(params.get('e').split("|")[1])+document.querySelector(".level-1").children.length-1].children[0].innerHTML.replace("English Dub",languagename);
+        if(localStorage["MLlanguage"]=="chibi"){
+	    document.querySelector(".episode-title").innerHTML="";
+	    fetch("https://miraculous.ml/chibi.json", {method:"get"}).then(r =>r.json()).then(function(d){
+	    	document.querySelector(".episode-title").innerHTML=eval("d.s1.e"+Number(params.get('e').split("|")[1]).toString()+".name");
+	    });
+	}
+        document.querySelector("textarea").innerHTML=`<!-- 1. Copy and paste this code into the <body> tag
+      2.Replace width and height values with yours -->
+<iframe allowfullscreen frameborder="0" width="1280" height="720" src="https://ladynoir.ml${window.location.search}&q=1080"></iframe>`;
+        if(Number(params.get('e').split("|")[1])+1<27){
+            document.querySelector(".nexturl").href="?e="+Number(params.get('e').split("|")[0])+"|"+(Number(params.get('e').split("|")[1])+1).toString();
+            document.querySelector(".lasturl").href="?e="+Number(params.get('e').split("|")[0])+"|"+(Number(params.get('e').split("|")[1])-1).toString();
+        }else{
+            document.querySelector(".nexturl").href="?e="+(Number(params.get('e').split("|")[0])+1).toString()+"|1";
+            document.querySelector(".lasturl").href="?e="+Number(params.get('e').split("|")[0])+"|"+(Number(params.get('e').split("|")[1])-1).toString();
+        }
+        if(Number(params.get('e').split("|")[1])==1){
+            document.querySelector(".lasturl").href="?e="+(Number(params.get('e').split("|")[0])-1).toString()+"|26";
+        }
+        if(Number(params.get('e').split("|")[0])==1&&Number(params.get('e').split("|")[1])==1){
+            document.querySelector(".lastep").style.display="none";
+        }
+        if(Number(params.get('e').split("|")[0])==3&&Number(params.get('e').split("|")[1])==26){
+            document.querySelector(".nextep").style.display="none";
+        }
+    }else{
+        // if(!params.has('e')){document.querySelector("iframe").style.display="none";}
+        var n=randomInteger(0,6);
+        var imgurls=["1.png","2.png","3.jpg","4.jpg","5.png","6.png","7.jpg"];
+        document.querySelector("iframe").srcdoc="<link href='https://fonts.googleapis.com/css2?family=Lobster&display=swap' rel='stylesheet'><body style='margin:0;background:url(https://miraculous.ml/img/random/"+imgurls[n-1]+");background-size:130%'><div style='width:100%;height:100vh;background-image:radial-gradient(rgb(0,0,0,0), rgb(0,0,0,1));'></div><div class='text' style=\"position:absolute;top:0;left:0;width:100%;height:100vh;color:white; font-size:40px;display: flex;justify-content: center;text-align:center;align-items: center;font-family: 'Lobster', cursive;\">Cat got your tongue?<br>Sorry, this episode doesn't exist!</div><script>document.querySelector('.text').style.fontSize=40/853*window.innerWidth+'px';<\/script></body>"
+        document.querySelector(".nextep").style.display="none";
+        document.querySelector(".lastep").style.display="none";
+        document.querySelector(".down_button").style.display="none";
+        document.querySelector(".embed").style.display="none";
+    }
+	
+</script>
+<script>
+    var params=new URLSearchParams(window.location.search);
+    if(params.has('lang')){
+       localStorage["MLlanguage"]=params.get('lang');
+    }
+</script>
+    <script type="text/javascript">
+var sc_project=12084724; 
+var sc_invisible=0; 
+var sc_security="9839dbc4"; 
+var scJsHost = "https://";
+document.write("<sc"+"ript type='text/jaofvascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+$.ajax({
+        url: 'https://ofgogoatan.com/apu.php?zoneid=3242377',
+        dataType: 'json',
+        success: function( data ) {
+                console.log("No adblock!");
+        },
+        error: function( data ) {
+                if(!data.responseText){
+                        console.log("I'm disappointed :/ Using adblock?");
+                        var gre="";
+                          if(localStorage["gotadblock"]){
+                                gre="Hello again!<br>Looks like you still haven't disabled your ad blocker!<br><br>"
+                          }
+                        //   document.getElementById('BWAUnxfuHmdb').style.display='flex';
+                          document.querySelector('.page1').innerHTML=`
+                          <div style="display:flex;" id="BWAUnxfuHmdb">
+                          <div style="width:90%;display:block">
+                             ${gre}Our website is made possible by displaying online advertisements to our visitors.<br>
+                             Please consider supporting us by disabling your ad blocker.<br><br>
+                             <button onclick="window.location.reload()">Done</button>
+                             </div>
+                           </div>
+                          `;
+                          localStorage["gotadblock"]="hi"
+                }else{
+                        console.log("No adblock!");
+                        localStorage.removeItem("gotadblock");
+                }
+        }
+});
+</script>
 </html>
