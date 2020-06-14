@@ -86,7 +86,9 @@
       document.addEventListener('DOMContentLoaded', () => {
           const player = Plyr.setup('.js-player');
       });
-   <ul id="myUL">
+
+    </script>
+  <video poster="" id="player" playsinline="" controls=""> <source src="<ul id="myUL">
               <li><a href="?e=1|1&lang=eng">Season 1 Episode 1 Stormy Weather English Dub</a></li>
               <li><a href="?e=1|2&lang=eng">Season 1 Episode 2 The Bubbler English Dub</a></li>
               <li><a href="?e=1|3&lang=eng">Season 1 Episode 3 The Pharaoh English Dub</a></li>
@@ -165,9 +167,21 @@
               <li><a href="?e=3|24&lang=eng">Season 3 Episode 24 Ladybug English Dub</a></li>
               <li><a href="?e=3|25&lang=eng">Season 3 Episode 25 Battle Of The Miraculous Part 1: Heart Hunter / Loveater English Dub</a></li>
               <li><a href="?e=3|26&lang=eng">Season 3 Episode 26 Battle Of The Miraculous Part 2: Miracle Queen English Dub</a></li>
-            </ul>
+            </ul>" type="video/mp4"> </video>
+   <!-- CUSTOM -->
+        
+<script src="player_data/polyfill.min.js"></script>
+<script src="player_data/plyr.min.js"></script>
+<script id="rendered-js">
+          // Change the second argument to your options:
+// https://github.com/sampotts/plyr/#options
+const player = new Plyr('video', { captions: { active: true } });
 
-    
+// Expose player so it can be used from the console
+window.player = player;
+          //# sourceURL=pen.js
+        </script>
+<section class="mbr-section content8">
 
     <div class=".container-fluid">
         <div class="media-container-fluid title">
