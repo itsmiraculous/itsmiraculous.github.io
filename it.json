@@ -1,0 +1,482 @@
+{
+  "s1":{
+    "e1":{
+      "id":"?e=1|1",
+      "name":"Stormy Weather", "dur":"22:31",
+      "thumb":"",
+      "down":""
+    },
+    "e2":{
+      "id":"?e=1|2",
+      "name":"The Bubbler",
+      "dur":"21:41",
+      "thumb":"",
+      "down":""
+    },
+    "e3":{
+      "id":"?e=1|3",
+      "name":"The Pharaoh",
+      "dur":"22:36",
+      "thumb":"",
+      "down":""
+    },
+    "e4":{
+      "id":"?e=1|4",
+      "name":"Lady Wifi", "dur":"21:39",
+      "thumb":"",
+      "down":""
+    },
+    "e5":{
+      "id":"?e=1|5",
+      "name":"Timebreaker", "dur":"20:49",
+      "thumb":"",
+      "down":""
+    },
+    "e6":{
+      "id":"?e=1|6",
+      "name":"Mr. Pigeon", "dur":"21:39",
+      "thumb":"",
+      "down":""
+    },
+    "e7":{
+      "id":"?e=1|7",
+      "name":"Evillustrator", "dur":"20:49",
+      "thumb":"",
+      "down":""
+    },
+    "e8":{
+      "id":"?e=1|8",
+      "name":"Rogercop", "dur":"20:49",
+      "thumb":"",
+      "down":""
+    },
+    "e9":{
+      "id":"?e=1|9",
+      "name":"Copycat", "dur":"21:51",
+      "thumb":"",
+      "down":""
+    },
+    "e10":{
+      "id":"?e=1|10",
+      "name":"Dark Cupid", "dur":"21:40",
+      "thumb":"",
+      "down":""
+    },
+    "e11":{
+      "id":"?e=1|11",
+      "name":"Horrificator", "dur":"22:31",
+      "thumb":"",
+      "down":""
+    },
+    "e12":{
+      "id":"?e=1|12",
+      "name":"Darkblade", "dur":"21:58",
+      "thumb":"",
+      "down":""
+    },
+    "e13":{
+      "id":"?e=1|13",
+      "name":"Mr. Mime",
+      "dur":"21:51",
+      "thumb":"",
+      "down":""
+    },
+    "e14":{
+      "id":"?e=1|14",
+      "name":"Kung Food",
+      "dur":"21:07",
+      "thumb":"",
+      "down":""
+    },
+    "e15":{
+      "id":"?e=1|15",
+      "name":"Gamer",
+      "dur":"21:22",
+      "thumb":"",
+      "down":""
+    },
+    "e16":{
+      "id":"?e=1|16",
+      "name":"Animan",
+      "dur":"21:38",
+      "thumb":"",
+      "down":""
+    },
+    "e17":{
+      "id":"?e=1|17",
+      "name":"Antibug", "dur":"21:37",
+      "thumb":"",
+      "down":""
+    },
+    "e18":{
+      "id":"?e=1|18",
+      "name":"The Puppeteer", "dur":"21:04",
+      "thumb":"",
+      "down":""
+    },
+    "e19":{
+      "id":"?e=1|19",
+      "name":"Reflekta", "dur":"21:37",
+      "thumb":"",
+      "down":""
+    },
+    "e20":{
+      "id":"?e=1|20",
+      "name":"Pixelator", "dur":"20:50",
+      "thumb":"",
+      "down":""
+    },
+    "e21":{
+      "id":"?e=1|21",
+      "name":"Guitar Villian", "dur":"21:08",
+      "thumb":"",
+      "down":""
+    },
+    "e22":{
+      "id":"?e=1|22",
+      "name":"Princess Frag", "dur":"22:02",
+      "thumb":"",
+      "down":""
+    },
+    "e23":{
+      "id":"?e=1|23",
+      "name":"Simon Says", "dur":"21:08",
+      "thumb":"",
+      "down":""
+    },
+    "e24":{
+      "id":"?e=1|24",
+      "name":"Volpina", "dur":"20:50",
+      "thumb":"",
+      "down":""
+    },
+    "e25":{
+      "id":"?e=1|25",
+      "name":"Origins P1: Ladybug and Cat Noir", "dur":"21:43",
+      "thumb":"",
+      "down":""
+    },
+    "e26":{
+      "id":"?e=1|26",
+      "name":"Origins P2: Stoneheart", "dur":"21:39",
+      "thumb":"",
+      "down":""
+    }
+  },
+  "s2":{
+    "e1":{
+      "id":"?e=2|1",
+      "name":"The Collector","dur":"20:55",
+      "thumb":"",
+      "down":""
+    },
+    "e2":{
+      "id":"?e=2|2",
+      "name":"Despair Bear","dur":"18:50",
+      "thumb":"",
+      "down":""
+    },
+    "e3":{
+      "id":"?e=2|3",
+      "name":"Prime Queen","dur":"21:09",
+      "thumb":"",
+      "down":""
+    },
+    "e4":{
+      "id":"?e=2|4",
+      "name":"Befana","dur":"21:08",
+      "thumb":"",
+      "down":""
+    },
+    "e5":{
+      "id":"?e=2|5",
+      "name":"Riposte", "dur":"21:09",
+      "thumb":"",
+      "down":""
+    },
+    "e6":{
+      "id":"?e=2|6",
+      "name":"Robostus", "dur":"21:07",
+      "thumb":"",
+      "down":""
+    },
+    "e7":{
+      "id":"?e=2|7",
+      "name":"Gigantitan", "dur":"21:08",
+      "thumb":"",
+      "down":""
+    },
+    "e8":{
+      "id":"?e=2|8",
+      "name":"The Dark Owl", "dur":"21:35",
+      "thumb":"",
+      "down":""
+    },
+    "e9":{
+      "id":"?e=2|9",
+      "name":"Glaciator", "dur":"21:09",
+      "thumb":"",
+      "down":""
+    },
+    "e10":{
+      "id":"?e=2|10",
+      "name":"Sapotis", "dur":"21:37",
+      "thumb":"",
+      "down":""
+    },
+    "e11":{
+      "id":"?e=2|11",
+      "name":"Gorizilla", "dur":"21:29",
+      "thumb":"",
+      "down":""
+    },
+    "e12":{
+      "id":"?e=2|12",
+      "name":"Captain Hardrock", "dur":"21:08",
+      "thumb":"",
+      "down":""
+    },
+    "e13":{
+      "id":"?e=2|13",
+      "name":"Zombizou", "dur":"21:09",
+      "thumb":"",
+      "down":""
+    },
+    "e14":{
+      "id":"?e=2|14",
+      "name":"Syren", "dur":"21:07",
+      "thumb":"",
+      "down":""
+    },
+    "e15":{
+      "id":"?e=2|15",
+      "name":"Frightningale", "dur":"20:45",
+      "thumb":"",
+      "down":""
+    },
+    "e16":{
+      "id":"?e=2|16",
+      "name":"Troublemaker", "dur":"20:43",
+      "thumb":"",
+      "down":""
+    },
+    "e17":{
+      "id":"?e=2|17",
+      "name":"Reverser", "dur":"21:09",
+      "thumb":"",
+      "down":""
+    },
+    "e18":{
+      "id":"?e=2|18",
+      "name":"Anansi", "dur":"21:08",
+      "thumb":"",
+      "down":""
+    },
+    "e19":{
+      "id":"?e=2|19",
+      "name":"Sandboy", "dur":"21:07",
+      "thumb":"",
+      "down":""
+    },
+    "e20":{
+      "id":"?e=2|20",
+      "name":"The Queens Battle P1: Style Queen", "dur":"20:32",
+      "thumb":"",
+      "down":""
+    },
+    "e21":{
+      "id":"?e=2|21",
+      "name":"The Queens Battle P2: Queen Wasp", "dur":"20:26",
+      "thumb":"",
+      "down":""
+    },
+    "e22":{
+      "id":"?e=2|22",
+      "name":"Malediktator", "dur":"18:52",
+      "thumb":"",
+      "down":""
+    },
+    "e23":{
+      "id":"?e=2|23",
+      "name":"Frozer", "dur":"20:39",
+      "thumb":"",
+      "down":""
+    },
+    "e24":{
+      "id":"?e=2|24",
+      "name":"Heroes Day P1: Catalyst", "dur":"21:07",
+      "thumb":"",
+      "down":""
+    },
+    "e25":{
+      "id":"?e=2|25",
+      "name":"Heroes Day P2: Mayura", "dur":"19:43",
+      "thumb":"",
+      "down":""
+    },
+    "e26":{
+      "id":"?e=2|26",
+      "name":"Christmas Special",
+      "thumb":"",
+      "down":""
+    }
+  },
+  "s3":{
+    "e1":{
+      "id":"?e=3|1",
+      "name":"Chameleon","dur":"21:09",
+      "thumb":"",
+      "down":""
+    },
+    "e2":{
+      "id":"?e=3|2",
+      "name":"Animaestro","dur":"21:38",
+      "thumb":"",
+      "down":""
+    },
+    "e3":{
+      "id":"?e=3|3",
+      "name":"Bakerix","dur":"21:10",
+      "thumb":"",
+      "down":""
+    },
+    "e4":{
+      "id":"?e=3|4",
+      "name":"Backwarder","dur":"22:32",
+      "thumb":"",
+      "down":""
+    },
+    "e5":{
+      "id":"?e=3|5",
+      "name":"Reflekdoll", "dur":"21:36",
+      "thumb":"",
+      "down":""
+    },
+    "e6":{
+      "id":"?e=3|6",
+      "name":"Weredad", "dur":"21:32",
+      "thumb":"",
+      "down":""
+    },
+    "e7":{
+      "id":"?e=3|7",
+      "name":"Silencer", "dur":"21:12",
+      "thumb":"",
+      "down":""
+    },
+    "e8":{
+      "id":"?e=3|8",
+      "name":"Onichan", "dur":"21:12",
+      "thumb":"",
+      "down":""
+    },
+    "e9":{
+      "id":"?e=3|9",
+      "name":"Miraculer",
+      "thumb":"",
+      "down":""
+    },
+    "e10":{
+      "id":"?e=3|10",
+      "name":"Oblivio",
+      "thumb":"",
+      "down":""
+    },
+    "e11":{
+      "id":"?e=3|11",
+      "name":"Desperada",
+      "thumb":"",
+      "down":""
+    },
+    "e12":{
+      "id":"?e=3|12",
+      "name":"Chris Master",
+      "thumb":"",
+      "down":""
+    },
+    "e13":{
+      "id":"?e=3|13",
+      "name":"Startrain",
+      "thumb":"",
+      "down":""
+    },
+    "e14":{
+      "id":"?e=3|14",
+      "name":"Kwami Buster",
+      "thumb":"",
+      "down":""
+    },
+    "e15":{
+      "id":"?e=3|15",
+      "name":"Feast",
+      "thumb":"",
+      "down":""
+    },
+    "e16":{
+      "id":"?e=3|16",
+      "name":"Gamer 2.0", "dur":"21:08",
+      "thumb":"",
+      "down":""
+    },
+    "e17":{
+      "id":"?e=3|17",
+      "name":"Stormy Weather 2", "dur":"22:32",
+      "thumb":"",
+      "down":""
+    },
+    "e18":{
+      "id":"?e=3|18",
+      "name":"Ikari Gozen", "dur":"21:11",
+      "thumb":"",
+      "down":""
+    },
+    "e19":{
+      "id":"?e=3|19",
+      "name":"Timetagger",
+      "thumb":"",
+      "down":""
+    },
+    "e20":{
+      "id":"?e=3|20",
+      "name":"Party Crasher",
+      "thumb":"",
+      "down":""
+    },
+    "e21":{
+      "id":"?e=3|21",
+      "name":"The Puppeteer 2",
+      "thumb":"",
+      "down":""
+    },
+    "e22":{
+      "id":"?e=3|22",
+      "name":"Cat Blanc",
+      "thumb":"",
+      "down":""
+    },
+    "e23":{
+      "id":"?e=3|23",
+      "name":"Felix",
+      "thumb":"",
+      "down":""
+    },
+    "e24":{
+      "id":"?e=3|24",
+      "name":"Ladybug",
+      "thumb":"",
+      "down":""
+    },
+    "e25":{
+      "id":"?e=3|25",
+      "name":"Battle Of The Miraculous P1: Loveater",
+      "thumb":"",
+      "down":""
+    },
+    "e26":{
+      "id":"?episode=3_26&language=it",
+      "name":"Battle Of The Miraculous P2: Miracle Queen",
+      "thumb":"",
+      "down":""
+    }
+  }
+}
