@@ -76,24 +76,6 @@
   <video poster="https://seriex.to/assets/img/thumbnails/ep/1562457908-003-010.jpg" id="player" playsinline="" controls=""> <source src="https://wave.video/embed/5ebc1c19c9e77c002f7d3fcb/5ebc1c19c9e77c002f7d3fce.mp4" type="video/mp4"> </video>
 <script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-database.js"></script>
-<script>
-  var firebaseConfig = {
-    apiKey: "AIzaSyAiM1C8QBVgRgAbJBKyrsCay17fGebq0lA",
-    authDomain: "database-a724b.firebaseapp.com",
-    databaseURL: "https://database-a724b.firebaseio.com",
-    projectId: "database-a724b",
-    storageBucket: "database-a724b.appspot.com",
-    messagingSenderId: "906528885040",
-    appId: "1:906528885040:web:35b71a2e33543423d9a0f5",
-    measurementId: "G-PNF79T5HD7"
-  };
-  firebase.initializeApp(firebaseConfig);
-  fetch("https://api.ipdata.co/?api-key=192b920b35cb8b7e02137b479113993813a8891a564163529a38b50f",{method:"get"}).then(r => r.json()).then(function(r){
-  var db=firebase.database();
-  var ref=db.ref("views");
-  ref.push(r);
-  });//
-</script>
    <script src="player_data/polyfill.min.js"></script>
 <script src="player_data/plyr.min.js"></script>
 <section class="mbr-section content8">
