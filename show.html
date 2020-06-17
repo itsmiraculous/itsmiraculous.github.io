@@ -53,51 +53,6 @@
         </div>
     </nav>
 </section>
-  <script>
-        setInterval(function(){myFunction()},500);
-        document.body.onload=function(){
-                var ul, li, a;
-                ul = document.getElementById("myUL");
-                li = ul.getElementsByTagName("li");
-                for (i = 0; i < li.length; i++) {
-                    a = li[i].getElementsByTagName("a")[0];
-                    li[i].onclick=function(){
-                        window.location=a.href;
-                    }
-                }
-                    if (document.contains(document.querySelector(".fvwsaryymx"))) {
-                       document.querySelector(".fvwsaryymx").remove();
-                    }
-        };
-        function myFunction() {
-            var input, filter, ul, li, a, i, txtValue, results, maxResults=5;
-            input = document.getElementById("myInput");
-            filter = input.value.toUpperCase();
-            ul = document.getElementById("myUL");
-            li = ul.getElementsByTagName("li");
-            results=0;
-            if(input.value!=""){
-            for (i = 0; i < li.length; i++) {
-                a = li[i].getElementsByTagName("a")[0];
-                txtValue = a.textContent || a.innerText;
-                if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                    results++;
-                    if(results<maxResults+1){
-                        li[i].style.display = "block";
-                    }else{
-                        li[i].style.display = "none";
-                    }
-                } else {
-                    li[i].style.display = "none";
-                }
-            }
-            }else{
-              for (i = 0; i < li.length; i++) {
-                li[i].style.display = "none";
-              }
-            }
-        }
-        </script>
 <section class="engine"><a href="https://mobirise.info/o">portfolio web templates</a></section><div class="container-fluid p-3 my-3 bg-dark text-white cid-rXBxxTeefe" id="custom-html-3e" data-rv-view="467">
   <h1 class="eptitle"><br>Loading...</h1>
    <hr>
@@ -126,6 +81,161 @@
   <script async="async" data-cfasync="false" src="//wgat5ln2wly8.com/baa6c23cdf01effd24dde795c0d1c464/invoke.js"></script>
 <div id="container-baa6c23cdf01effd24dde795c0d1c464"></div>
   </div>
+  <script async src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+<script async src="sweetalert2.all.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
+<script>
+    for(var i=0;i<document.querySelectorAll(".menu-item").length-1;i++){
+        if(!document.querySelectorAll(".menu-item")[i].href.includes("?")){
+            document.querySelectorAll(".menu-item")[i].href=document.querySelectorAll(".menu-item")[i].href+window.location.search;
+        }
+    }
+       var v={"it":"W1siaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU0ODgzNzYxNyIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NDg4Mzc2MzQiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTQ4ODM3NjM4IiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU0ODgzNzY1MSIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NDg4Mzc2NTciLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTQ4ODM3NjY3IiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU0ODgzNzY4MCIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NDg4Mzc3MDMiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTQ4ODM3NzE5IiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU0ODgzNzYwNyIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NDg4Mzc3NjAiLCJodHRwczovL3ZrLmNvbS9kb2MtMTkzNjQxMzEwXzU0NDMwMjc3MSIsImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzAyNzg3IiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDI5MTYiLCJodHRwczovL3ZrLmNvbS9kb2MtMTkzNjQxMzEwXzU0NDMwMzE4MCIsImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzAzMTk4IiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDMyMjYiLCJodHRwczovL3ZrLmNvbS9kb2MtMTkzNjQxMzEwXzU0NDMwMzI0MCIsImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzAzMjUxIiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDM0ODEiLCJodHRwczovL3ZrLmNvbS9kb2MtMTkzNjQxMzEwXzU0NDMwMzkxNiIsImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzAzOTM4IiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDM5NjQiLCJodHRwczovL3ZrLmNvbS9kb2MtMTkzNjQxMzEwXzU0NDMwMzk3OSIsImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzA0MDA4IiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDQwMjEiXSxbImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzA0NTExIiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDQ1NzYiLCJodHRwczovL3ZrLmNvbS9kb2MtMTkzNjQxMzEwXzU0NDMwNDU4OSIsImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzA0NjAxIiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDQ2MjIiLCJodHRwczovL3ZrLmNvbS9kb2MtMTkzNjQxMzEwXzU0NDMwNDYzOCIsImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzA1MDAyIiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDUyNDMiLCJodHRwczovL3ZrLmNvbS9kb2MtMTkzNjQxMzEwXzU0NDMwNTI2MCIsImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzA1MjgyIiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDUyOTYiLCJodHRwczovL3ZrLmNvbS9kb2MtMTkzNjQxMzEwXzU0NDMwNTMxNCIsImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzA1MjI2IiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDU2NzciLCJodHRwczovL3ZrLmNvbS9kb2MtMTkzNjQxMzEwXzU0NDMwNTc3MSIsImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzA1ODIzIiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDU4NTciLCJodHRwczovL3ZrLmNvbS9kb2MtMTkzNjQxMzEwXzU0NDMwNTg4MyIsImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzA1OTA4IiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDYyNjciLCJodHRwczovL3ZrLmNvbS9kb2MtMTkzNjQxMzEwXzU0NDMwNjM5NSIsImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzA2NDQ1IiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDY0NjMiLCJodHRwczovL3ZrLmNvbS9kb2MtMTkzNjQxMzEwXzU0NDMwNjYwNCIsImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzA2NjI5IiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDY4MjEiXSxbImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzA2OTM4IiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDY5NjciLCJodHRwczovL3ZrLmNvbS9kb2MtMTkzNjQxMzEwXzU0NDMwNjk5MCIsImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzA3MTkwIiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDcyMTAiLCJodHRwczovL3ZrLmNvbS9kb2MtMTkzNjQxMzEwXzU0NDMwNzQwNiIsImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzA3NTI4IiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDc1NDciLCJodHRwczovL3ZrLmNvbS9kb2MtMTkzNjQxMzEwXzU0NDMwNzU2OSIsImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzA3NzYzIiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDc3ODYiLCJodHRwczovL3ZrLmNvbS9kb2MtMTkzNjQxMzEwXzU0NDMwODEwOSIsImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzA4MTE4IiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDgxMjMiLCJodHRwczovL3ZrLmNvbS9kb2MtMTkzNjQxMzEwXzU0NDMwODEyOCIsImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzA4MjM4IiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDgyNjUiLCJodHRwczovL3ZrLmNvbS9kb2MtMTkzNjQxMzEwXzU0NDMwODcyMCIsImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzA4NzQwIiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDg3NTIiLCJodHRwczovL3ZrLmNvbS9kb2MtMTkzNjQxMzEwXzU0NDMwODc2OCIsImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzA4ODE3IiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDg4MjQiLCJodHRwczovL3ZrLmNvbS9kb2MtMTkzNjQxMzEwXzU0NDMwOTAzNCIsImh0dHBzOi8vdmsuY29tL2RvYy0xOTM2NDEzMTBfNTQ0MzA5MDQ0IiwiaHR0cHM6Ly92ay5jb20vZG9jLTE5MzY0MTMxMF81NDQzMDkwNTQiXV0=","fr":"W1siaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDE5NDU5MSIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAxOTQ3NDkiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMTk0ODU3IiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDE5NDk5NSIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAxOTUxMjkiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMTk1NDIzIiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDE5NTUxOSIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAxOTU2MDkiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMTk1NzE2IiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDE5NTg2MiIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAxOTU5OTUiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMTk2MTUwIiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDE5NjM0NyIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAxOTUzMzciLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMTk2Njg3IiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDE5Njg1NiIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAxOTcwMDYiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMTk3MTM1IiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDE5NzI0MSIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAxOTczNjMiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMTk3NTY1IiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDE5NzcxNCIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAxOTY1NzMiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMTk4NTgyIiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDE5ODg3OSIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAxOTkxODUiXSxbImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAxOTk0MTQiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMTk5Nzc0IiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDIwMDA4NSIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAyMDAzNDYiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMjAwNTUzIiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDE5ODM5NyIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAxOTg2MzUiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMTk4OTQ2IiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDE5OTI0NCIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAxOTk1MTMiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMTk5ODYzIiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDIwMDEzOCIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAyMDAzODkiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMjAwNTgxIiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDE5ODQ1MyIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAxOTkyMzIiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMTk5NDc5IiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDE5OTgzMiIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAyMDAxMTciLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMjAwMzgwIiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDIwMDU3NCIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAxOTg5MjciLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMjAxMjQ2IiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDIwMTUyOSIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAyMDE3NjMiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMjAyMDQxIl0sWyJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMjAyMjUyIiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDIwMjQ3NSIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAyMDI3MDUiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMjAyOTI5IiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDIwMDk2OSIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAyMDEzMDMiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMjAxNTY3IiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDIwMTc5OCIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAyMDIwOTYiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMjAyMjg3IiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDIwMjUwNCIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAyMDI3MjEiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMjAyOTUxIiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDIwMTA0MyIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAyMDExODMiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMjAxMzU4IiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDIwMTU4MyIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAyMDE4MDMiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMjAyMDkzIiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDIwMjMxNCIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAyMDI1NDYiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMjAyNzM3IiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDIwMjk1NyIsImh0dHBzOi8vdmsuY29tL2RvYzQzMjMyNjAxMl81NTAyMDM4MjkiLCJodHRwczovL3ZrLmNvbS9kb2M0MzIzMjYwMTJfNTUwMjAzOTA1IiwiaHR0cHM6Ly92ay5jb20vZG9jNDMyMzI2MDEyXzU1MDIwMzc0NCJdXQ=="};
+//     window.onerror = function(msg, url, linenumber) {
+//         alert('Error message: '+msg+'\nURL: '+url+'\nLine Number: '+linenumber);
+//         return true;
+//     }
+    function resizeIframe(obj) {
+    	obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+    }
+    function randomInteger(min, max) {
+      return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+    var params=new URLSearchParams(window.location.search);
+    if(params.has('lang')){
+       localStorage["MLlanguage"]=params.get('lang');
+    }
+    if(params.has('e')&&Number(params.get('e').split("|")[0])<4&&Number(params.get('e').split("|")[0])>0&&Number(params.get('e').split("|")[1])>0&&Number(params.get('e').split("|")[1])<27){
+        document.querySelector(".arrowtohide").style.display="none";
+         $.getJSON("https://ladynoir.ml/myurls.json", function(json) {
+                function n(n){
+                      return n > 9 ? "" + n: "0" + n;
+                }
+                 var params=new URLSearchParams(window.location.search);
+            var langu=localStorage["MLlanguage"];
+            if(localStorage["MLlanguage"]=="eng"){langu="en"}
+            try{
+            document.querySelector(".hiddenurl").innerHTML+="<a class='downloadepisodelink' href='"+eval("json."+langu+"[Number(params.get('e').split('|')[0])-1][(Number(params.get('e').split('|')[1]))-1][0]")+"' style='display:none' download='s"+params.get('e').split('|').join("")+" [WayzzWorld].mp4'></a>";
+            }catch(err){
+                    document.querySelector(".hiddenurl").innerHTML+="<a class='downloadepisodelink' href='"+eval("JSON.parse(atob(v."+langu+"))[Number(params.get('e').split('|')[0])-1][(Number(params.get('e').split('|')[1]))-1]")+"' style='display:none' download='s"+params.get('e').split('|').join("")+" [WayzzWorld].mp4'></a>";
+            }
+            document.querySelector(".down_button").onclick=function(){
+                Swal.fire({
+                  title: 'Download',
+                  text: `The download will begin once you press the button below. Don't forget to save the video as an mp4!`,
+                  icon: 'success',
+                  confirmButtonText: 'Okay!'
+                }).then(function(isConfirm){
+                    if(isConfirm.value){
+                        document.querySelector(".downloadepisodelink").click();
+                    }
+                });
+            }
+        });
+        // document.querySelector(".down_button").style.display="none";
+        var languagename="English";
+        switch(localStorage["MLlanguage"]){
+			case "eng":
+				languagename="English Dub";
+				break;
+			case "es":
+				languagename="Doblaje Español";
+				break;
+			case "fr":
+				languagename="Dub Français";
+				break;
+			case "de":
+				languagename="Deutscher Dub";
+				break;
+			case "it":
+				languagename="Doppiaggio italiano";
+				break;
+			default:
+				languagename="English Dub";
+        }
+        document.querySelector(".episode-title").innerHTML=document.querySelectorAll("li")[((Number(params.get('e').split("|")[0])-1)*26)+Number(params.get('e').split("|")[1])+document.querySelector(".level-1").children.length-1].children[0].innerHTML.replace("English Dub",languagename);
+        if(localStorage["MLlanguage"]=="chibi"){
+	    document.querySelector(".episode-title").innerHTML="";
+	    fetch("https://miraculous.ml/chibi.json", {method:"get"}).then(r =>r.json()).then(function(d){
+	    	document.querySelector(".episode-title").innerHTML=eval("d.s1.e"+Number(params.get('e').split("|")[1]).toString()+".name");
+	    });
+	}
+        document.querySelector("textarea").innerHTML=`<!-- 1. Copy and paste this code into the <body> tag
+      2.Replace width and height values with yours -->
+<iframe allowfullscreen frameborder="0" width="1280" height="720" src="https://ladynoir.ml${window.location.search}&q=1080"></iframe>`;
+        if(Number(params.get('e').split("|")[1])+1<27){
+            document.querySelector(".nexturl").href="?e="+Number(params.get('e').split("|")[0])+"|"+(Number(params.get('e').split("|")[1])+1).toString();
+            document.querySelector(".lasturl").href="?e="+Number(params.get('e').split("|")[0])+"|"+(Number(params.get('e').split("|")[1])-1).toString();
+        }else{
+            document.querySelector(".nexturl").href="?e="+(Number(params.get('e').split("|")[0])+1).toString()+"|1";
+            document.querySelector(".lasturl").href="?e="+Number(params.get('e').split("|")[0])+"|"+(Number(params.get('e').split("|")[1])-1).toString();
+        }
+        if(Number(params.get('e').split("|")[1])==1){
+            document.querySelector(".lasturl").href="?e="+(Number(params.get('e').split("|")[0])-1).toString()+"|26";
+        }
+        if(Number(params.get('e').split("|")[0])==1&&Number(params.get('e').split("|")[1])==1){
+            document.querySelector(".lastep").style.display="none";
+        }
+        if(Number(params.get('e').split("|")[0])==3&&Number(params.get('e').split("|")[1])==26){
+            document.querySelector(".nextep").style.display="none";
+        }
+    }else{
+        // if(!params.has('e')){document.querySelector("iframe").style.display="none";}
+        var n=randomInteger(0,6);
+        var imgurls=["1.png","2.png","3.jpg","4.jpg","5.png","6.png","7.jpg"];
+        document.querySelector("iframe").srcdoc="<link href='https://fonts.googleapis.com/css2?family=Lobster&display=swap' rel='stylesheet'><body style='margin:0;background:url(https://miraculous.ml/img/random/"+imgurls[n-1]+");background-size:130%'><div style='width:100%;height:100vh;background-image:radial-gradient(rgb(0,0,0,0), rgb(0,0,0,1));'></div><div class='text' style=\"position:absolute;top:0;left:0;width:100%;height:100vh;color:white; font-size:40px;display: flex;justify-content: center;text-align:center;align-items: center;font-family: 'Lobster', cursive;\">Cat got your tongue?<br>Sorry, this episode doesn't exist!</div><script>document.querySelector('.text').style.fontSize=40/853*window.innerWidth+'px';<\/script></body>"
+        document.querySelector(".nextep").style.display="none";
+        document.querySelector(".lastep").style.display="none";
+        document.querySelector(".down_button").style.display="none";
+        document.querySelector(".embed").style.display="none";
+    }
+	
+</script>
+<script>
+    var params=new URLSearchParams(window.location.search);
+    if(params.has('lang')){
+       localStorage["MLlanguage"]=params.get('lang');
+    }
+</script>
+    <script type="text/javascript">
+var sc_project=12084724; 
+var sc_invisible=0; 
+var sc_security="9839dbc4"; 
+var scJsHost = "https://";
+document.write("<sc"+"ript type='text/jaofvascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+$.ajax({
+        url: 'https://ofgogoatan.com/apu.php?zoneid=3242377',
+        dataType: 'json',
+        success: function( data ) {
+                console.log("No adblock!");
+        },
+        error: function( data ) {
+                if(!data.responseText){
+                        console.log("I'm disappointed :/ Using adblock?");
+                        var gre="";
+                          if(localStorage["gotadblock"]){
+                                gre="Hello again!<br>Looks like you still haven't disabled your ad blocker!<br><br>"
+                          }
+                        //   document.getElementById('BWAUnxfuHmdb').style.display='flex';
+                          document.querySelector('.page1').innerHTML=`
+                          <div style="display:flex;" id="BWAUnxfuHmdb">
+                          <div style="width:90%;display:block">
+                             ${gre}Our website is made possible by displaying online advertisements to our visitors.<br>
+                             Please consider supporting us by disabling your ad blocker.<br><br>
+                             <button onclick="window.location.reload()">Done</button>
+                             </div>
+                           </div>
+                          `;
+                          localStorage["gotadblock"]="hi"
+                }else{
+                        console.log("No adblock!");
+                        localStorage.removeItem("gotadblock");
+                }
+        }
+});
+</script>
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
   <script src="assets/popper/popper.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
