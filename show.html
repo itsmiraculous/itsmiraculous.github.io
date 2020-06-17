@@ -53,6 +53,51 @@
         </div>
     </nav>
 </section>
+  <script>
+        setInterval(function(){myFunction()},500);
+        document.body.onload=function(){
+                var ul, li, a;
+                ul = document.getElementById("myUL");
+                li = ul.getElementsByTagName("li");
+                for (i = 0; i < li.length; i++) {
+                    a = li[i].getElementsByTagName("a")[0];
+                    li[i].onclick=function(){
+                        window.location=a.href;
+                    }
+                }
+                    if (document.contains(document.querySelector(".fvwsaryymx"))) {
+                       document.querySelector(".fvwsaryymx").remove();
+                    }
+        };
+        function myFunction() {
+            var input, filter, ul, li, a, i, txtValue, results, maxResults=5;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            ul = document.getElementById("myUL");
+            li = ul.getElementsByTagName("li");
+            results=0;
+            if(input.value!=""){
+            for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName("a")[0];
+                txtValue = a.textContent || a.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    results++;
+                    if(results<maxResults+1){
+                        li[i].style.display = "block";
+                    }else{
+                        li[i].style.display = "none";
+                    }
+                } else {
+                    li[i].style.display = "none";
+                }
+            }
+            }else{
+              for (i = 0; i < li.length; i++) {
+                li[i].style.display = "none";
+              }
+            }
+        }
+        </script>
 <section class="engine"><a href="https://mobirise.info/o">portfolio web templates</a></section><div class="container-fluid p-3 my-3 bg-dark text-white cid-rXBxxTeefe" id="custom-html-3e" data-rv-view="467">
   <h1 class="eptitle"><br>Loading...</h1>
    <hr>
