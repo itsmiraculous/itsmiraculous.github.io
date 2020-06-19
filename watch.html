@@ -57,22 +57,37 @@
                 </li></ul>
         </div>
     </nav>
-</secti
+  </section>
 <section class="engine"><a href="https://mobirise.info/o">portfolio web templates</a></section><div class="container-fluid p-3 my-3 bg-dark text-white cid-rXBxxTeefe" id="custom-html-3e" data-rv-view="467">
   <h1 class="eptitle"><br>Loading...</h1>
    <hr>
   <p class="epnumber">Loading :)</p>
 <script>
-  localStorage["lang"]="en,fr,it"
+  localStorage["lang"]="en,es,fr,it"
   localStorage["estitleenc"]="disabled";
   localStorage["activethumbs"]="true"
   localStorage["globalposter"]="https://files.miraculousladybug.cf/favicon.png";
 </script>
 <link rel="stylesheet" href="https://cdn.plyr.io/3.5.6/plyr.css">
 <script src="https://mediaelements.github.io/MediaElements/plyr.js"></script>
+   <script>
+      document.addEventListener('DOMContentLoaded', () => {
+          const player = Plyr.setup('.js-player');
+      });
+  </script>
   <video poster="https://seriex.to/assets/img/thumbnails/ep/1562457908-003-010.jpg" id="player" playsinline="" controls=""> <source src="https://wave.video/embed/5ebc1c19c9e77c002f7d3fcb/5ebc1c19c9e77c002f7d3fce.mp4" type="video/mp4"> </video>
-<script src="player_data/polyfill.min.js"></script>
+<!-- CUSTOM -->
+  <script src="player_data/polyfill.min.js"></script>
 <script src="player_data/plyr.min.js"></script>
+  <script id="rendered-js">
+          // Change the second argument to your options:
+// https://github.com/sampotts/plyr/#options
+const player = new Plyr('video', { captions: { active: true } });
+
+// Expose player so it can be used from the console
+window.player = player;
+          //# sourceURL=pen.js
+        </script>
 <section class="mbr-section content8">
     <div class=".container-fluid">
         <div class="media-container-fluid title">
@@ -96,6 +111,8 @@
   <script src="assets/viewportchecker/jquery.viewportchecker.js"></script>
   <script src="assets/smoothscroll/smooth-scroll.js"></script>
   <script src="assets/theme/js/script.js"></script>
+  
+  
   <input name="animation" type="hidden">
   </body>
 </html>
