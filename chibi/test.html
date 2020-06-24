@@ -117,6 +117,167 @@ window.player = player;
   <script async="async" data-cfasync="false" src="//wgat5ln2wly8.com/baa6c23cdf01effd24dde795c0d1c464/invoke.js"></script>
 <div id="container-baa6c23cdf01effd24dde795c0d1c464"></div>
   </div>
+  
+  <div class="container">
+  <div class="row">
+    <h1>Bootstrap 3 lightbox hidden gallery using modal</h1>
+        <hr>
+
+    <div class="row">
+
+                <div class="col-12 col-md-4 col-sm-6">
+                    <a title="Image 1" href="#"> 
+                        <img class="thumbnail img-responsive" id="image-1" src="http://dummyimage.com/600x350/ccc/969696&amp;text=0xD10x810xD00xB50xD10x800xD10x8B0xD00xB9">
+                    </a>
+                </div>
+
+                <div class="col-12 col-md-4 col-sm-6">
+                    <a title="Image 2" href="#"> 
+                        <img class="thumbnail img-responsive" id="image-2" src="http://dummyimage.com/600x350/2255EE/969696&amp;text=0xD10x810xD00xB80xD00xBD0xD00xB80xD00xB9">
+                    </a>
+
+                </div>
+                <div class="col-12 col-md-4 col-sm-6">
+                    <a title="Image 3" href="#"> 
+                        <img class="thumbnail img-responsive" id="image-3" src="http://dummyimage.com/600x350/449955/FFF&amp;text=0xD00xB70xD00xB50xD00xBB0xD00xB50xD00xBD0xD10x8B0xD00xB9">
+                    </a>
+                </div>
+    </div>
+
+    <hr>
+
+  </div>
+</div>
+
+    <div class="hidden" id="img-repo">
+
+        <!-- #image-1 -->
+        <div class="item" id="image-1">
+            <img class="thumbnail img-responsive" title="Image 11" src="http://dummyimage.com/600x350/ccc/969696">
+        </div>
+        <div class="item" id="image-1">
+            <img class="thumbnail img-responsive" title="Image 12" src="http://dummyimage.com/600x600/ccc/969696">
+        </div>
+        <div class="item" id="image-1">
+            <img class="thumbnail img-responsive" title="Image 13" src="http://dummyimage.com/300x300/ccc/969696">
+        </div>
+
+        <!-- #image-2 -->
+        <div class="item" id="image-2">
+            <img class="thumbnail img-responsive" title="Image 21" src="http://dummyimage.com/600x350/2255EE/969696">
+        </div>
+        <div class="item" id="image-2">
+            <img class="thumbnail img-responsive" title="Image 21" src="http://dummyimage.com/600x600/2255EE/969696">
+        </div>
+        <div class="item" id="image-2">
+            <img class="thumbnail img-responsive" title="Image 23" src="http://dummyimage.com/300x300/2255EE/969696">
+        </div>   
+
+        <!-- #image-3-->
+        <div class="item" id="image-3">
+            <img class="thumbnail img-responsive" title="Image 31" src="http://dummyimage.com/600x350/449955/FFF">
+        </div>
+        <div class="item" id="image-3">
+            <img class="thumbnail img-responsive" title="Image 32" src="http://dummyimage.com/600x600/449955/FFF">
+        </div>
+        <div class="item" id="image-3">
+            <img class="thumbnail img-responsive" title="Image 33" src="http://dummyimage.com/300x300/449955/FFF">
+        </div>        
+
+    </div>
+
+<div class="modal" id="modal-gallery" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+          <button class="close" type="button" data-dismiss="modal">×</button>
+          <h3 class="modal-title"></h3>
+      </div>
+      <div class="modal-body">
+          <div id="modal-carousel" class="carousel">
+
+            <div class="carousel-inner">           
+            </div>
+
+            <a class="carousel-control left" href="#modal-carousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+            <a class="carousel-control right" href="#modal-carousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+
+          </div>
+      </div>
+      <div class="modal-footer">
+          <button class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+        <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');">    
+                <center>
+                <div class="carousel-title">
+                    <h1>Certified General Contractor</h1>
+                </div>
+
+                </center>
+                </div>
+
+                <div class="carousel-caption">
+
+                    <h2>For all your South Florida construction needs</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');">
+                        <center>
+                <div class="carousel-title">
+                    <h1>Commercial Contruction</h1>
+                </div>
+
+                </center>
+                    </div>
+                <div class="carousel-caption">
+                    <h2>Build with a company you can trust</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');">
+
+                    <center>
+                <div class="carousel-title">
+                    <h1>Home Renovation</h1>
+                </div>
+
+                </center>
+            </div>
+                <div class="carousel-caption">
+                    <h2>Remodel your home with the best in the field</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev" style="font-size:70px;"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next" style="font-size:70px;"></span>
+        </a>
 
 
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
