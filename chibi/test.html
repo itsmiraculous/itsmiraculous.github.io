@@ -117,57 +117,28 @@ window.player = player;
   <script async="async" data-cfasync="false" src="//wgat5ln2wly8.com/baa6c23cdf01effd24dde795c0d1c464/invoke.js"></script>
 <div id="container-baa6c23cdf01effd24dde795c0d1c464"></div>
   </div>
-  
-  #carousel {
-  border:   1px solid black;
-  width:    200px;
-  position: relaitve;
-  top:      100px;
-  left:     100px;
-}
+   <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- nav -->
+<nav id="nav1" class="row">
+<div>
+    <ul class="nav nav-tabs">
+        <li class="col-lg-2 col-lg-offset-4"<br><a>home
+</a></li>
+            <li class="col-lg-2"><a>search</a></li>
+        </ul>
+     </div>
+     </nav>
+    <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
 
-#carousel div {
-  width:    200px;
-}
-
-.slick-prev:before, .slick-next:before {
-  color:    silver;
-}
-
-
-<template name="portfolio">
-  <div class="container">
-    <div class="row">
-      <div class="cold-md-1">
-        <div id="carousel">
-          <div><img src="http://heidipahn.edicy.co/photos/jaanikapirjophotography_large.jpg" width="200px" /></div>
-          <div><img src="http://heidipahn.edicy.co/photos/GreteKlein_large.jpg" width="200px" /></div>
-          <div><img src="http://heidipahn.edicy.co/photos/spring_banquet_by_heidishvili-d572cf0_large.jpg" width="200px" /></div>
-          <div><img src="http://heidipahn.edicy.co/photos/dawning_by_heidishvili-d368ld9_large.jpg" width="200px" /></div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="cold-md-1">
-        <div id="carousel">
-          <div><img src="http://heidipahn.edicy.co/photos/jaanikapirjophotography_large.jpg" width="200px" /></div>
-          <div><img src="http://heidipahn.edicy.co/photos/GreteKlein_large.jpg" width="200px" /></div>
-          <div><img src="http://heidipahn.edicy.co/photos/spring_banquet_by_heidishvili-d572cf0_large.jpg" width="200px" /></div>
-          <div><img src="http://heidipahn.edicy.co/photos/dawning_by_heidishvili-d368ld9_large.jpg" width="200px" /></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</template>
-
-if (Meteor.isClient) {
-  Template.portfolio.rendered = function() {
-    $('#carousel').slick({
-      dots: true,
-      arrows: true
-    });
-  }
-}
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
 
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
   <script src="assets/popper/popper.min.js"></script>
