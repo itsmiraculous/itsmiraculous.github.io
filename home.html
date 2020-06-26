@@ -101,7 +101,7 @@
         </a>
     </div>
 </section>
-	<head>
+<head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {box-sizing: border-box}
@@ -127,7 +127,6 @@ img {vertical-align: middle;}
   color: black;
   font-weight: bold;
   font-size: 20px;
-  transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
@@ -169,7 +168,7 @@ img {vertical-align: middle;}
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 100px) {
+@media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
 </style>
@@ -308,73 +307,6 @@ function showSlides(n) {
 </script>
 
 </body>
-<div class="row no-gutters bg-light position-relative">
-<hr style="width:85%;height:3px" color="grey"><br>
-  <div class="col-md-6 mb-md-0 p-md-4">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRDQjXdSFcrA5pSwovg0nTf1BY6xGCoD9N2RpPV7MaYpd9pz_B8&usqp=CAU" class="w-100" alt="...">
-  </div>
-  <div class="col-md-6 position-static p-4 pl-md-0">
-    <h5 class="mt-0">Latest News!</h5>
-	    <head>
-	 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-.collapsible {
-  background-color: #FFFFFF;
-  color: red;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
-
-.active, .collapsible:hover {
-  background-color: #FFFFFF;
-}
-
-.content {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  background-color: #FFFFFF;
-}
-</style>
-</head>
-<body>
-
-
-<button type="button" class="collapsible">Season 4 Release Date!</button>
-<div class="content">
-  <p><br>Season 4 is supposed to air this Fall but it could be delayed due to COVID-19</p>
-</div>
-<button type="button" class="collapsible">New Special Episode!</button>
-<div class="content">
-  <p><br>According to an interview with Thomas Astruc, a special episode of 52 mins is supposed to air before the premiere of Season 4.</p>
-</div>
-<button type="button" class="collapsible">The Miraculous Movie Release Date!</button>
-<div class="content">
-  <p><br>The Miraculous Movie will air at the end of 2021</p>
-</div>
-
-<script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}
-</script>
-	    </body>
   </div>
 </div>
 </div>
