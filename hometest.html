@@ -93,77 +93,337 @@
         </a>
     </div>
 </section>
-<div class="alert alert-warning alert-dismissible fade show" role="alert">
-  <strong>If any alerts ads appear please be sure to contact me!</strong>
-  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-    <span aria-hidden="true">&times;</span>
-  </button>
-</div>
-<section class="accordion1 cid-rZ6FSDTYxe" id="accordion1-5s">
 
-    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial;
+  margin: 0;
+}
 
-    
-    <div class="container">
-        <div class="media-container-row">
-            <div class="col-12 col-md-8">
-                <div class="section-head text-center space30">
-                    <h2 class="mbr-section-title pb-5 mbr-fonts-style display-2"><strong>News!</strong></h2>
-                </div>
-                <div class="clearfix"></div>
-                <div id="bootstrap-accordion_4" class="panel-group accordionStyles accordion" role="tablist" aria-multiselectable="true">
-                    <div class="card">
-                        <div class="card-header" role="tab" id="headingOne">
-                            <a role="button" class="panel-title collapsed text-black" data-toggle="collapse" data-core="" href="#collapse1_4" aria-expanded="false" aria-controls="collapse1">
-                                <h4 class="mbr-fonts-style display-5">Season 4 Release Date!</h4>
-                            </a>
-                        </div>
-                        <div id="collapse1_4" class="panel-collapse noScroll collapse " role="tabpanel" aria-labelledby="headingOne" data-parent="#bootstrap-accordion_4">
-                            <div class="panel-body p-4">
-                                <p class="mbr-fonts-style panel-text display-7">Season 4 is delayed to 2021 due to Covid-19</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" role="tab" id="headingTwo">
-                            <a role="button" class="collapsed panel-title text-black" data-toggle="collapse" data-core="" href="#collapse2_4" aria-expanded="false" aria-controls="collapse2">
-                                <h4 class="mbr-fonts-style display-5">Summary for the Miraculous New-York</h4>
-                            </a>
-                            
-                        </div>
-                        <div id="collapse2_4" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#bootstrap-accordion_4">
-                            <div class="panel-body p-4">
-                                <p class="mbr-fonts-style panel-text display-7">During a school field trip, Ladybug and Cat Noir meet the american superheroes, whom they have to save from an akumatized super-villain. They will also discover that Miraculous exist in the United States, too.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" role="tab" id="headingThree">
-                            <a role="button" class="collapsed text-black panel-title" data-toggle="collapse" data-core="" href="#collapse3_4" aria-expanded="false" aria-controls="collapse3">
-                                <h4 class="mbr-fonts-style display-5">The Miraculous Movie Release Date!</h4>
-                            </a>
-                        </div>
-                        <div id="collapse3_4" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#bootstrap-accordion_4">
-                            <div class="panel-body p-4">
-                                <p class="mbr-fonts-style panel-text display-7">The Miraculous Movie will air at the end of 2021</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+* {
+  box-sizing: border-box;
+}
 
-<div class="album py-5 bg-light">
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #000000;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* three columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+</style>
+<body>
+
+<h2 style="text-align:center">Slideshow Gallery</h2>
+
 <div class="container">
-    <div class="row">
-        <h1>&nbsp; Latest episodes<br><br></h1>
-      </div>
-    </div>
+  <div class="mySlides">
+    <div class="numbertext">1 / 3</div>
+    <head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+
+
+</br></br></br></br><div class="row">
+  <div class="column">
+  <img src="https://i.ytimg.com/vi/IHGdoPFlY9U/maxresdefault.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://i.ytimg.com/vi/4ODgspKhg-I/maxresdefault.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+  <img src="https://i.ytimg.com/vi/IHGdoPFlY9U/maxresdefault.jpg" alt="Snow" style="width:100%">
+  </div>
+</div>
+
+</body>
+  </div>
+
+
+  <div class="mySlides1">
+    <head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 3</div>
+    <head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+
+
+</br></br></br></br><div class="row">
+  <div class="column">
+  <img src="https://i.ytimg.com/vi/IHGdoPFlY9U/maxresdefault.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://i.ytimg.com/vi/4ODgspKhg-I/maxresdefault.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+  <img src="https://i.ytimg.com/vi/IHGdoPFlY9U/maxresdefault.jpg" alt="Snow" style="width:100%">
+  </div>
+</div>
+
+</body>
+  </div>
+
+
+  <div class="mySlides1">
+    <head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 3</div>
+    <head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+
+
+</br></br></br></br><div class="row">
+  <div class="column">
+  <img src="https://i.ytimg.com/vi/IHGdoPFlY9U/maxresdefault.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://i.ytimg.com/vi/4ODgspKhg-I/maxresdefault.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+  <img src="https://i.ytimg.com/vi/IHGdoPFlY9U/maxresdefault.jpg" alt="Snow" style="width:100%">
+  </div>
+</div>
+
+</body>
+  </div>
+
+
+  <div class="mySlides1">
+    <head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+  </div>
+    
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+    
+</body>
    
     <!-- Custom styles for this template -->
     <link href="album.css" rel="stylesheet">
