@@ -102,8 +102,6 @@
     </div>
 </section>
 <div class="album py-5 bg-light">
- </div> 
-<div class="album py-5 bg-light">
 	<hr style="width:85%;height:3px" color="grey"><br>
 	<head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -505,6 +503,80 @@ function showSlides(n) {
 }
 </script>
     
+</body>
+<div class="album py-5 bg-light">
+	<hr style="width:85%;height:3px" color="grey"><br>
+	<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.collapsible {
+  background-color: #FFFFFF;
+  color: red;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #FFFFFF;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+</style>
+</head>
+<body>
+<div class="row no-gutters bg-light position-relative">
+  <div class="col-md-6 mb-md-0 p-md-4">
+    <img src="https://raw.githubusercontent.com/itsmiraculous/itsmiraculous.github.io/master/img/XVM10e1baa0-16b0-11ea-a200-f88b95c92545.jpg" class="w-100" alt="...">
+  </div>
+  <div class="col-md-6 position-static p-4 pl-md-0">
+	  <h5 class="mt-0">NEWSFLASH AND UPCOMING EPISODES</h5></br>
+
+<button type="button" class="collapsible">Season 4 Release Date!</button>
+<div class="content">
+	<p></br>Season 4 is delayed to 2021 due to Covid-19</p>
+</div>
+<button type="button" class="collapsible">Summary for the Miraculous New-York</button>
+<div class="content">
+	<p></br>During a school field trip, Ladybug and Cat Noir meet the american superheroes, whom they have to save from an akumatized super-villain. They will also discover that Miraculous exist in the United States, too.</p>
+</div>
+<button type="button" class="collapsible">Miraculous New-York special Release Date!</button>
+<div class="content">
+	<p></br>The 52 mins Miraculous New-York Special is supposed to come out in between 1st September and 2nd October of this year on Disney Channel France</p>
+</div>
+<button type="button" class="collapsible">The Miraculous Movie Release Date!</button>
+<div class="content">
+	<p></br>The Miraculous Movie will air at the end of 2021.</p>
+</div>
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+</div>
+</div>
 </body>
 </div>
   </div>
