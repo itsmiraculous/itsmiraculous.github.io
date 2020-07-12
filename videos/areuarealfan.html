@@ -18,6 +18,26 @@
   ></iframe>
 </div>
 
+<link rel="stylesheet" href="https://cdn.plyr.io/3.5.6/plyr.css">
+  <script src="https://cdn.plyr.io/3.5.6/plyr.js"></script>
+ <script>
+      document.addEventListener('DOMContentLoaded', () => {
+          const player = Plyr.setup('.js-player');
+      });
+  </script>
+  <video poster="" id="player" playsinline="" controls=""> <source src="https://www.youtube.com/embed/1m3nSty_bG4" type="video/mp4"> </video>
+   <!-- CUSTOM -->
+<script src="player_data/polyfill.min.js"></script>
+<script src="player_data/plyr.min.js"></script>
+<script id="rendered-js">
+          // Change the second argument to your options:
+// https://github.com/sampotts/plyr/#options
+const player = new Plyr('video', { captions: { active: true } });
+
+// Expose player so it can be used from the console
+window.player = player;
+          //# sourceURL=pen.js
+        </script>
 
 </body>
 <script async="async" data-cfasync="false" src="//wgat5ln2wly8.com/baa6c23cdf01effd24dde795c0d1c464/invoke.js"></script>
