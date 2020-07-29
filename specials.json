@@ -1,30 +1,43 @@
 {
-  "eng":{
-    "e1":{
-      "id":"?e=1",
-      "name":"Ladybug in New York",
-      "thumb":"https://pbs.twimg.com/media/Eb3ANjhWkAEJzVh?format=jpg&name=large",
-      "down":""
-    },
-    "e2":{
-      "id":"?e=2",
-      "name":"Shangai Special",
-      "thumb":"https://pbs.twimg.com/media/Eb3ANjqXsAE-L6F?format=jpg&name=large",
-      "down":""
-    }
-  },
-  "fr":{
-    "e1":{
-      "id":"?e=1",
-      "name":"Ladybug dans New York",
-      "thumb":"https://pbs.twimg.com/media/Eb3ANjhWkAEJzVh?format=jpg&name=large",
-      "down":""
-    },
-    "e2":{
-      "id":"?e=2",
-      "name":"Shangai Special",
-      "thumb":"https://pbs.twimg.com/media/Eb3ANjqXsAE-L6F?format=jpg&name=large",
-      "down":""
-    }
-  }
+   "en":[
+      [
+         "https://wave.video/embed/5f16cc1d46e0fb000d993b20/5f16cc2746e0fb000d993b2d.mp4"
+      ],
+      [
+         "https://wave.video/embed/5f16cd9e46e0fb000d993c75/5f16cd9e46e0fb000d993c79.mp4"
+      ]
+   ],
+   "es":[
+      [
+         "https://wave.video/embed/5f16cc1d46e0fb000d993b20/5f16cc2746e0fb000d993b2d.mp4"
+      ],
+      [
+         "https://wave.video/embed/5f16cd9e46e0fb000d993c75/5f16cd9e46e0fb000d993c79.mp4"
+      ]
+   ],
+   "fr":[
+         [
+            "https://wave.video/embed/5f16cc1d46e0fb000d993b20/5f16cc2746e0fb000d993b2d.mp4"
+         ],
+         [
+            "https://wave.video/embed/5f16cd9e46e0fb000d993c75/5f16cd9e46e0fb000d993c79.mp4"
+         ]
+   ],
+   "it":[
+      [
+         "https://wave.video/embed/5f16cc1d46e0fb000d993b20/5f16cc2746e0fb000d993b2d.mp4"
+      ],
+      [
+         "https://wave.video/embed/5f16cd9e46e0fb000d993c75/5f16cd9e46e0fb000d993c79.mp4"
+      ]
+   ],
+   "thumbs":"https://files.miraculousladybug.cf/miniatures/special/newyork.jpg||https://files.miraculousladybug.cf/miniatures/special/shangahi.jpg",
+   "downloaden":"",
+  "downloades":"",
+   "downloadfr":"",
+   "downloadit":"",
+   "entitles":"New York Special||Shanghai Special",
+   "estitles":"Especial Nueva York||Especial Shanghai",
+   "frtitles":"Spécial New York||Spécial Shanghai",
+   "ittitles":"Speciale New York||Speciale Shanghai"
 }
