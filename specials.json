@@ -1,0 +1,30 @@
+{
+  "eng":{
+    "e1":{
+      "id":"?e=1",
+      "name":"Ladybug in New York",
+      "thumb":"https://pbs.twimg.com/media/Eb3ANjhWkAEJzVh?format=jpg&name=large",
+      "down":""
+    },
+    "e2":{
+      "id":"?e=2",
+      "name":"Shangai Special",
+      "thumb":"https://pbs.twimg.com/media/Eb3ANjqXsAE-L6F?format=jpg&name=large",
+      "down":""
+    }
+  },
+  "fr":{
+    "e1":{
+      "id":"?e=1",
+      "name":"Ladybug dans New York",
+      "thumb":"https://pbs.twimg.com/media/Eb3ANjhWkAEJzVh?format=jpg&name=large",
+      "down":""
+    },
+    "e2":{
+      "id":"?e=2",
+      "name":"Shangai Special",
+      "thumb":"https://pbs.twimg.com/media/Eb3ANjqXsAE-L6F?format=jpg&name=large",
+      "down":""
+    }
+  }
+}
