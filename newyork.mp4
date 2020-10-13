@@ -1,1 +1,3 @@
-<video>  <source src="https://videos2.sendvid.com/0c/09/2nyi6qae.mp4?validfrom=1602575950&validto=1602583150&rate=180k&burst=500k&ip=178.135.3.238&hash=nZjrxn%2FCIc391AUKSNKmQ5oRvRM%3D" type="video/mp4"></video>
+<video width="400" height="222" controls="controls">
+  <source src="https://videos2.sendvid.com/0c/09/2nyi6qae.mp4?validfrom=1602575950&validto=1602583150&rate=180k&burst=500k&ip=178.135.3.238&hash=nZjrxn%2FCIc391AUKSNKmQ5oRvRM%3D" type="video/mp4" />
+</video>
