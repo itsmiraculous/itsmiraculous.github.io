@@ -95,11 +95,7 @@
           // Change the second argument to your options:
 // https://github.com/sampotts/plyr/#options
 const player = new Plyr('video', { captions: { active: true } });
-
-// Expose player so it can be used from the console
-window.player = player;
-          //# sourceURL=pen.js
-  new Plyr(video, {captions: {update: true}});
+	new Plyr(video, {captions: {update: true}});
 const track = document.createElement('track');
 Object.assign(track, {
   label: 'English',
@@ -108,6 +104,10 @@ Object.assign(track, {
   src: 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.en.vtt'
 });
 video.appendChild(track);
+
+// Expose player so it can be used from the console
+window.player = player;
+          //# sourceURL=pen.js
         </script>
 <section class="mbr-section content8">
 
