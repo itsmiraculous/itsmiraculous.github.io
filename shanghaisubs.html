@@ -79,7 +79,32 @@
   <h1><br><br>Miraculous World Shanghai : The Legend of Ladydragon</h1>
    <hr>
   <p></p>
-<iframe src="https://drive.google.com/file/d/1YqteImhmLRaeoTBOin3Rnbs5ACBMrnZ9/preview" width="640" height="480"></iframe>
+<link rel="stylesheet" href="https://cdn.plyr.io/3.5.6/plyr.css">
+  <script src="https://cdn.plyr.io/3.5.6/plyr.js"></script>
+ <script>
+      document.addEventListener('DOMContentLoaded', () => {
+          const player = Plyr.setup('.js-player');
+      });
+  </script>
+ <video id="player" playsinline controls data-poster="/path/to/poster.jpg">
+  <source src="https://vk.com/doc-192921485_595926479" type="video/mp4" />
+
+  <!-- Captions are optional -->
+  <track kind="captions" label="English captions" src="https://itsladybug.cf/ShanghaiSpecial.vtt" srclang="en" default />
+</video>
+   <!-- CUSTOM -->
+        
+<script src="player_data/polyfill.min.js"></script>
+<script src="player_data/plyr.min.js"></script>
+<script id="rendered-js">
+          // Change the second argument to your options:
+// https://github.com/sampotts/plyr/#options
+const player = new Plyr('video', { captions: { active: true } });
+
+// Expose player so it can be used from the console
+window.player = player;
+          //# sourceURL=pen.js
+        </script>
 	
 <section class="mbr-section content8">
 
